@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f69153a8d.js" crossorigin="anonymous"></script>
+     
+    
+</head>
+<body>
+    <section class="sub-hrader">
+        <nav>
+            <a href="index.html"><img src="/eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark"  id="a" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="/About.html.html">ABOUT</a></li>
+                    <li><a href="/Course.html.html">COURSE</a></li>
+                    <li><a href="/blog.html.html">BLOG</a></li>
+                    <li><a href="/Contact.html.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" id="b" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Our Certificate & Online Programs 2024</h1>
+    </section>
+
+<!-- Blog page -->
+    <div class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/eduford_img/certificate.jpg" alt="">
+                <h2> Our Certificate & Online Programs 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta tempore nihil, corporis mollitia dolorem deleniti commodi maxime eaque earum veniam unde officia magni et, hic quas quam quidem facilis!</p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, corporis quos unde blanditiis, quae modi optio culpa natus aspernatur quasi illum enim repellat suscipit laboriosam voluptatibus voluptates ratione voluptas sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quisquam! Quidem voluptates corrupti labore ratione ipsum harum debitis natus, rem facere a dicta ipsa dolore vero nesciunt excepturi, delectus eaque?
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, corporis quos unde blanditiis, quae modi optio culpa natus aspernatur quasi illum enim repellat suscipit laboriosam voluptatibus voluptates 
+                <br>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, corporis quos unde blanditiis, quae modi optio culpa natus aspernatur quasi illum enim repellat suscipit laboriosam voluptatibus voluptates ratione voluptas sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quisquam! Quidem voluptates corrupti labore ratione ipsum harum debitis natus, rem facere a dicta ipsa dolore vero nesciunt excepturi, delectus eaque?
+                </p>
+
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3> Post Catagories</h3>
+                <div>
+                    <samp>Buisness Analytics</samp>
+                    <samp>24</samp>
+                </div>
+                <div>
+                    <samp>Data Science </samp>
+                    <samp>21</samp>
+                </div>
+                <div>
+                    <samp>Machine Learning </samp>
+                    <samp>29</samp>
+                </div>
+                <div>
+                    <samp>Computer Science</samp>
+                    <samp>24</samp>
+                </div>
+                <div>
+                    <samp>AutoCAD</samp>
+                    <samp>22</samp>
+                </div>
+                <div>
+                    <samp>Journalism</samp>
+                    <samp>24</samp>
+                </div>
+                <div>
+                    <samp>Commerce</samp>
+                    <samp>24</samp>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Fotter -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, at excepturi tenetur ullam, repellendus dolore neque  <br> iure debitis minus nostrum et itaque ipsa illo, laborum amet expedita! At, ex repellendus!</p>
+    <div class="icons">
+        <i class="fab fa fa-facebook"></i>
+        <i class="fab fa fa-twitter"></i>
+        <i class="fab fa fa-whatsapp"></i>
+        <i class="fab fa fa-instagram"></i>
+        <i class="fab fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa-regular fa-heart" style="color: #f44336;"></i> by Mahadi Hasan</p>
+</section>
+
+<!-- javaScript -->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
